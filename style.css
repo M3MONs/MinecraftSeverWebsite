@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap');
+
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		text-decoration: none;
+		font-family: 'Rowdies', cursive;
+		
+	}
+	body{
+		background-color:#1b1818;
+		color:#c27910;
+	}
+	.navbar{
+		background-color:#1b1818 !important;
+	}
+	.screen{
+	background: url(images/screen-blur.png);
+	height: 850px;
+	}
+	nav a{
+		text-decoration: none;
+		color: #c27910 !important;
+	}
+	nav a:hover{
+		background-color:#2e2929;
+	}
+	.Online{
+		text-shadow:2px 3px 6px black;
+		background-color: rgba(0, 0, 0, 0.50);
+		height: 200px;
+	}
+	.card{
+		background-color:#2e2929;
+	}
+	.logo{
+		width: 250px;
+	}
+	.opis{
+		width: 400px;
+		margin: auto;
+	}
+	.logo{
+		width: 700px;
+	}
+	.pad-nav{
+		padding:10px 5%;
+	}
+	.card-text, .edycja{
+		font-size: 24px;
+	}
+	.card-text, .text{
+		color: rgba(255, 255, 255, 0.89);
+	}
+	@media screen and (max-width: 992px) {
+  .logo{
+	  width: 350px;
+  }
+  .Online{
+	  width: 80% !important;
+	  height: 250px;
+  }
+  .screen{
+	  height: 600px;
+  }
+  .edycja{
+	  width: 90% !important;
+  }
+} 
